@@ -25,19 +25,18 @@ const Footer = () => {
           <div className="w-full md:w-1/4 px-4">
             <h2 className="text-2xl font-semibold mb-4">Follow us</h2>
             <ul className="flex space-x-4">
-              <li><a href="#" className="text-xl fa fa-facebook hover:text-gray-400"></a></li>
-              <li><a href="#" className="text-xl fa fa-twitter hover:text-gray-400"></a></li>
-              <li><a href="#" className="text-xl fa fa-dribbble hover:text-gray-400"></a></li>
-              <li><a href="#" className="text-xl fa fa-behance hover:text-gray-400"></a></li>
-              <li><a href="#" className="text-xl fa fa-google-plus hover:text-gray-400"></a></li>
+              <li><span className="text-xl fa fa-facebook hover:text-gray-400"></span></li>
+              <li><span className="text-xl fa fa-twitter hover:text-gray-400"></span></li>
+              <li><span className="text-xl fa fa-dribbble hover:text-gray-400"></span></li>
+              <li><span className="text-xl fa fa-behance hover:text-gray-400"></span></li>
+              <li><span className="text-xl fa fa-google-plus hover:text-gray-400"></span></li>
             </ul>
           </div>
 
         </div>
 
         <div className="mt-8 text-center">
-          <p className="text-gray-500">Copyright &copy; 2016 Your Company | Design: 
-            <a rel="nofollow" href="http://www.templatemo.com/page/1" target="_parent" className="text-gray-400 hover:text-gray-200"> Templatemo</a>
+          <p className="text-gray-500">Copyright &copy; 2024 All Rights Reserved | Design: 
           </p>
         </div>
       </div>

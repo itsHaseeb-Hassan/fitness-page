@@ -6,6 +6,7 @@ import 'swiper/css/navigation';
 import SwiperCore from 'swiper';
 import homeImg1 from '../assets/images/home-bg-slider-img1.jpg'; 
 import homeImg2 from '../assets/images/home-bg-slider-img2.jpg'; 
+import { Link } from 'react-router-dom';
 
 SwiperCore.use([]);
 
@@ -24,7 +25,7 @@ const HeroSection = () => {
 
   return (
     <div>
-      <section className="relative">
+      <section className="relative" id="home">
         <Swiper>
           <SwiperSlide style={{ height: '100vh' }}>
             <div className="relative bg-cover bg-fixed" style={{ backgroundImage: `url(${images[currentImageIndex]})`, height: '100%' }}>
@@ -38,13 +39,13 @@ const HeroSection = () => {
                     <br />
                     Fitness Club
                   </h1>
-                  <a
+                  <Link
                     href="#overview"
                     className="animate-fadeInUp smooth-scroll btn btn-default bg-[#26253a] text-[#999] font-bold text-[20px]  px-14 py-5 hover:bg-white hover:text-[[#26253a] "
                     style={{ animationDelay: '2s',letterSpacing:'5px' }}
                   >
                     LEARN MORE
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

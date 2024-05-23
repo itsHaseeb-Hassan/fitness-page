@@ -6,10 +6,10 @@ const NewsSection = () => {
          <section id="newsletter" className="relative bg-fixed bg-cover bg-center py-16" style={{ backgroundImage: `url(${newsbg})` }}>
       <div className="container mx-auto px-4">
         <div className="flex justify-center">
-          <div className="wow fadeInUp w-full md:w-8/12 sm:w-10/12" data-wow-delay="0.9s">
+          <div className="animate fadeInUp w-full md:w-8/12 sm:w-10/12" data-wow-delay="0.9s">
             <h2 className="text-center text-4xl font-bold mb-4">Signup Newsletter</h2>
             <p className="text-center text-lg mb-8">Get discounts for your personal fitness and gym services now.</p>
-            <div className="newsletter_detail">
+            <div >
               <form action="#" method="post" id="newsletter-signup" className="flex flex-wrap -mx-2">
                 <div className="w-full md:w-1/2 px-2 mb-4 md:mb-0">
                   <input name="name" type="text" className="form-control w-full px-4 py-2 border border-gray-300 rounded" id="name" placeholder="Name" />

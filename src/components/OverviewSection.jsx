@@ -3,7 +3,7 @@ import overviewImg from '../assets/images/overview-img.jpg';
 
 const OverviewSection = () => {
   return (
-    <section className="bg-cover bg-fixed my-12">
+    <section className="bg-cover bg-fixed my-12" id="overview">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/2 p-6 mb-8 md:mb-0 relative bg-white border-8">
@@ -22,13 +22,11 @@ const OverviewSection = () => {
               <h2 className="text-[30px] font-semibold mb-4 leading-8 tracking-[5px] uppercase">About Fitness</h2>
               <p className="my-4 text-[23px] font-bold leading-[30px] text-[#707070] tracking-[0.4px]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat.</p>
               <p className="my-4 text-[23px] font-bold leading-[30px] text-[#707070] tracking-[0.4px]">
-                Fitness web template includes total 2 pages. This is an index (main) page and another is a <a href="blog-single.html" className="text-blue-500 underline">blog page</a>.
+                Fitness web template includes total 2 pages. This is an index (main)
               </p>
               <button className="w-full py-5 text-[20px] font-bold  bg-[#26253A] text-white rounded hover:bg-[#222222]  transition duration-300">Let Us Begin</button>
             </div>
           </div>
-
-          <div className="w-full md:w-1/12"></div>
         </div>
       </div>
     </section>

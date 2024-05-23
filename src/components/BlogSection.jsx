@@ -13,7 +13,7 @@ const BlogSection = () => {
           <div className=" w-full md:w-1/2 px-4 mb-8" >
             <div className=" p-20 border rounded-lg shadow-lg hover:bg-bgimage bg-cover ">
               <span className="block text-gray-600 mb-2">Body Fitness / July 2, 2016</span>
-              <h3 className="text-2xl font-bold mb-2"><a href="blog-single.html" className="text-blue-600 hover:underline">How to get a fitness model body?</a></h3>
+              <h3 className="text-2xl font-bold mb-2"><span className="text-blue-600 hover:underline">How to get a fitness model body?</span></h3>
               <h5 className="text-gray-700">by David Walker</h5>
             </div>
           </div>
@@ -21,7 +21,7 @@ const BlogSection = () => {
           <div className=" w-full md:w-1/2 px-4 mb-8" data-wow-delay="1.3s">
             <div className=" p-20 border rounded-lg shadow-lg hover:bg-bgimage bg-cover">
               <span className="block text-gray-600 mb-2">Healthy Fit / June 8, 2016</span>
-              <h3 className="text-2xl font-bold mb-2"><a href="blog-single.html" className="text-blue-600 hover:underline">Personal Fitness Tips</a></h3>
+              <h3 className="text-2xl font-bold mb-2"><span className="text-blue-600 hover:underline">Personal Fitness Tips</span></h3>
               <h5 className="text-gray-700">by George</h5>
             </div>
           </div>
@@ -29,7 +29,7 @@ const BlogSection = () => {
           <div className=" w-full md:w-1/2 px-4 mb-8" data-wow-delay="1.6s">
             <div className="p-20 border rounded-lg shadow-lg hover:bg-bgimage bg-cover">
               <span className="block text-gray-600 mb-2">Gym Services / May 9, 2016</span>
-              <h3 className="text-2xl font-bold mb-2"><a href="blog-single.html" className="text-blue-600 hover:underline">Efficient Workout Plans</a></h3>
+              <h3 className="text-2xl font-bold mb-2"><span className="text-blue-600 hover:underline">Efficient Workout Plans</span></h3>
               <h5 className="text-gray-700">by Mary Louis</h5>
             </div>
           </div>
@@ -37,7 +37,7 @@ const BlogSection = () => {
           <div className=" w-full md:w-1/2 px-4 mb-8" data-wow-delay="1.9s">
             <div className=" p-20 border rounded-lg shadow-lg hover:bg-bgimage bg-cover">
               <span className="block text-gray-600 mb-2">Practice Aerobics / April 18, 2016</span>
-              <h3 className="text-2xl font-bold mb-2"><a href="blog-single.html" className="text-blue-600 hover:underline">How to practice Aerobics?</a></h3>
+              <h3 className="text-2xl font-bold mb-2"><span className="text-blue-600 hover:underline">How to practice Aerobics?</span></h3>
               <h5 className="text-gray-700">by Michael Fit</h5>
             </div>
           </div>

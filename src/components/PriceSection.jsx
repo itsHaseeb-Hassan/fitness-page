@@ -4,13 +4,13 @@ const PriceSection = () => {
   return (
     <section id="price" className="relative bg-fixed bg-cover bg-center py-30 " style={{ backgroundImage: `url(${pricebg})`,height:'100%' }}>
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12 wow fadeInUp" data-wow-delay="0.9s">
-          <h2 className="text-4xl font-bold mb-4">Our Prices</h2>
-          <p className="text-lg">Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</p>
+        <div className="text-center mb-12 animate fadeInUp" data-delay="0.9s">
+          <h2 className="text-4xl font-bold mb-4 text-white py-4">Our Prices</h2>
+          <p className="text-lg text-white">Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</p>
         </div>
 
         <div className="flex flex-wrap -mx-4">
-          <div className="w-full md:w-1/3 px-4 mb-8 wow fadeInUp" data-wow-delay="1s">
+          <div className="w-full md:w-1/3 px-4 mb-8 animate fadeInUp" data-wow-delay="1s">
             <div className="p-8 border rounded-lg shadow-lg text-white hover:bg-white text-center hover:text-black">
               <h3 className="text-[50px] font-extrabold mb-4  italic">Healthy</h3>
               <div className=" mx-auto w-32 h-32 flex items-center justify-center text-4xl font-bold mb-4 bg-gray-700 rounded-full">
